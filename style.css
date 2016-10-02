@@ -1,0 +1,29 @@
+body {
+  background-color: #1361a2;
+  font-family: 'Lato', sans-serif;
+}
+
+.file-drop {
+  border: 2px dashed #7c7db3;
+  border-radius: 3px;rgb(229, 245, 241)
+  position: relative;
+  width: 450px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 26px 20px 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+button {
+  margin-top: 20px;
+  border: 1px solid #9E9EC4;
+  border-radius: 5px;
+  padding: 9px 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 200px;
+}

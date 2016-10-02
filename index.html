@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Dagilicious!</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Add your assests to the IPFS Merkle Dag!</h1>
+    <p>make sure that your daemon is running. Coming soon: button to turn on daemon</p>
+    <div class="file-drop">
+      <div class="hash-input">
+        <h3>Drag file or directory into this area or enter in the absolute file path below:</h3>
+        <label for="enter-message">Enter your file(abs file path): </label>
+        <input id="hashfile" type="text" size="30">
+        <button id='button' type="button" name="button">DAG THAT SHIT</button>
+      </div>
+      <h2>Your published file/directory link will appear below and will forever be on the dag.</h2>
+      <a id="hashlink">
+      </a>
+    </div>
+
+  </body>
+  <script>
+    window.$ = window.jQuery = require('./jquery/dist/jquery.min.js');
+  </script>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+
+</html>
